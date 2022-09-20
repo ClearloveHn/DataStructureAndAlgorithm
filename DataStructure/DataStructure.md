@@ -5,3 +5,20 @@
 ### 1.2 数组的优势和劣势
 优势：数组支持随机访问,根据下标随机访问的时间复杂度为O(1)  
 劣势：数组不适合插入和删除，插入和删除的平均复杂度为O(N)
+## 2.链表
+### 2.1单链表
+![Image](https://static001.geekbang.org/resource/image/b9/eb/b93e7ade9bb927baad1348d9a806ddeb.jpg?wh=1142*399)
+1.头节点记录链表的基地址,遍历整体链表就要靠头节点。  
+2.尾节点指向null
+### 2.2循环列表
+![Image](https://static001.geekbang.org/resource/image/86/55/86cb7dc331ea958b0a108b911f38d155.jpg?wh=1142*399)
+1.循环列表的尾结点指向列表的第一个data  
+2.循环链表的优点是从链尾到链头比较方便。当要处理的数据具有环型结构特点时,就特别适合采用循环链表。
+### 2.3双向链表
+![Image](https://static001.geekbang.org/resource/image/cb/0b/cbc8ab20276e2f9312030c313a9ef70b.jpg?wh=1142*399)
+1.额外多了一个前继指针  
+2.在删除,插入甚至遍历上比单链表高效
+### 2.4链表VS数组
+![Image](https://static001.geekbang.org/resource/image/4f/68/4f63e92598ec2551069a0eef69db7168.jpg?wh=1142*449)
+区别:数组支持随机访问,根据下标随机访问的时间复杂度为O(1)
+
