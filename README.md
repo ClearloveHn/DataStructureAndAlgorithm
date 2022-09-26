@@ -15,5 +15,5 @@
 |题目|解法|难度|时间复杂度|空间复杂度|
 |:---|---|---|---|---|
 |[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) |Go| 简单|O(N)|O(1)|
-|
+|[32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) |Go|困难|O(N)|O(N)|
 
