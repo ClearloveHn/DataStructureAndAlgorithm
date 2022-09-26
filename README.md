@@ -11,3 +11,9 @@
 |:---|---|---|---|---|
 |[141. 环形链表](https://leetcode.cn/problems/linked-list-cycle/) |Go,Java| 简单|O(N)|O(1)|
 
+## 栈
+|题目|解法|难度|时间复杂度|空间复杂度|
+|:---|---|---|---|---|
+|[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) |Go| 简单|O(N)|O(1)|
+|
+
