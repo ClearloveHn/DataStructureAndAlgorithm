@@ -16,4 +16,5 @@
 |:---|---|---|---|---|
 |[20. 有效的括号](https://leetcode.cn/problems/valid-parentheses/) |Go| 简单|O(N)|O(1)|
 |[32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/) |Go|困难|O(N)|O(N)|
+|[150. 逆波兰表达式求值](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)|Go|中等|O(N)|O(N)|
 
