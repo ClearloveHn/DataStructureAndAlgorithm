@@ -29,3 +29,9 @@
 |题目|解法|难度|时间复杂度|空间复杂度|
 |:---|---|---|---|---|
 |[69. x的平方根](https://leetcode.cn/problems/sqrtx/)|Go,Java|简单|O(nLogn)|O(1)|
+
+## 字符串
+|题目|解法|难度|时间复杂度|空间复杂度|
+|:---|---|---|---|---|
+|[344. 反转字符串](https://leetcode.cn/problems/reverse-string/)|Go,Java|简单|O(N)|O(1)|
+
