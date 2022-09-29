@@ -35,3 +35,8 @@
 |:---|---|---|---|---|
 |[344. 反转字符串](https://leetcode.cn/problems/reverse-string/)|Go,Java|简单|O(N)|O(1)|
 
+## 哈希表
+|题目|解法|难度|时间复杂度|空间复杂度|
+|:---|---|---|---|---|
+|[1. 两数之和](https://leetcode.cn/problems/two-sum/)|Go|简单|O(N)|O(N)|
+
