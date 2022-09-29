@@ -20,5 +20,103 @@
 2.首先找到最小的元素放入已排序区间的第一位。  
 3.每次从未排序区间中找到最小的元素，将其放到已排序区间的末尾。  
 #### 2.5归并排序  
+TODO
+#### 2.6快速排序
+TODO
 
+### 3.二分查找
+#### 3.1二分查找基础模板
+```
+public int bsearch(int[] a, int n, int value) {
+  int low = 0;
+  int high = n - 1;
 
+  while (low <= high) {
+    int mid = (low + high) / 2;
+    if (a[mid] == value) {
+      return mid;
+    } else if (a[mid] < value) {
+      low = mid + 1;
+    } else {
+      high = mid - 1;
+    }
+  }
+
+  return -1;
+}
+```
+#### 3.2二分查找-查找第一个值等于给定值的元素
+```
+public int bsearch(int[] a, int n, int value) {
+  int low = 0;
+  int high = n - 1;
+  while (low <= high) {
+    int mid =  low + ((high - low)/2);
+    if (a[mid] > value) {
+      high = mid - 1;
+    } else if (a[mid] < value) {
+      low = mid + 1;
+    } else {
+      if ((mid == 0) || (a[mid - 1] != value)) {
+      return mid;
+      }else{
+      high = mid - 1;
+      } 
+    }
+  }
+  return -1;
+}
+```
+#### 3.3二分查找-查找最后一个值等于给定值的元素
+```
+public int bsearch(int[] a, int n, int value) {
+  int low = 0;
+  int high = n - 1;
+  while (low <= high) {
+    int mid =  low + ((high - low)/2);
+    if (a[mid] > value) {
+      high = mid - 1;
+    } else if (a[mid] < value) {
+      low = mid + 1;
+    } else {
+      if ((mid == n - 1) || (a[mid + 1] != value)) return mid;
+      else low = mid + 1;
+    }
+  }
+  return -1;
+}
+```
+#### 3.4二分查找-查找第一个大于等于给定值的元素
+```
+public int bsearch(int[] a, int n, int value) {
+  int low = 0;
+  int high = n - 1;
+  while (low <= high) {
+    int mid =  low + ((high - low)/2);
+    if (a[mid] >= value) {
+      if ((mid == 0) || (a[mid - 1] < value)) return mid;
+      else high = mid - 1;
+    } else {
+      low = mid + 1;
+    }
+  }
+  return -1;
+}
+```
+#### 3.5查找最后一个小于等于给定值的元素
+```
+public int bsearch7(int[] a, int n, int value) {
+  int low = 0;
+  int high = n - 1;
+  while (low <= high) {
+    int mid =  low + ((high - low) >> 1);
+    if (a[mid] > value) {
+      high = mid - 1;
+    } else {
+      if ((mid == n - 1) || (a[mid + 1] > value)) return mid;
+      else low = mid + 1;
+    }
+  }
+  return -1;
+}
+```
