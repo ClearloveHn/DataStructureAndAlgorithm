@@ -36,6 +36,7 @@
 |[344. 反转字符串](https://leetcode.cn/problems/reverse-string/)|Go,Java|简单|O(N)|O(1)|
 |[151. 反转字符串中的单词](https://leetcode.cn/problems/reverse-words-in-a-string/)|Go|中等|O(N)|O(N)|
 |[8. 字符串转整数](https://leetcode.cn/problems/string-to-integer-atoi/)|Go|中等|O(N)|O(1)|
+|[58. 最后一个单词的长度](https://leetcode.cn/problems/length-of-last-word/)|Go,Java|简单|O(N)|O(1)|
 ## 哈希表
 |题目|解法|难度|时间复杂度|空间复杂度|
 |:---|---|---|---|---|
