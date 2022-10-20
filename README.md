@@ -41,4 +41,5 @@
 |题目|解法|难度|时间复杂度|空间复杂度|
 |:---|---|---|---|---|
 |[1. 两数之和](https://leetcode.cn/problems/two-sum/)|Go|简单|O(N)|O(N)|
+|[剑指Offer 03.数组中重复的数字 ](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|Go,Java|简单|O(N)|O(N)|
 
